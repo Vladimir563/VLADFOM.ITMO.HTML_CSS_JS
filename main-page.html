@@ -1,67 +1,69 @@
 <!DOCTYPE html>
 
 <head>
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Название страницы</title>
-    <meta charset="utf-8"/>
-    <meta name="description" content="Лучшие страны для отдыха 2021"/>
-    <meta name="keywords" content="страны, лучшие, отдыха"/>
-    <meta name="author" content="Fladimir Fominykh"/>
+    <meta charset="utf-8" />
+    <meta name="description" content="Лучшие страны для отдыха 2021" />
+    <meta name="keywords" content="страны, лучшие, отдыха" />
+    <meta name="author" content="Fladimir Fominykh" />
 </head>
+
+<!-- для автоматической подгонки изображений -->
+<!-- <div class="text" style="background: url()"></div> -->
 
 <body>
     <header>
-        <h2 align="center">Лучшие страны для отдыха 2021</h2>
-        <img width="50%" align = "center" src="..\image\main_menu_pic.jpg">
+        <h1 id="main-header">Лучшие страны для отдыха 2021</h1>
     </header>
 
     <main>
-        <section>
+        <section id="description-page-section">
             <article>
-                <h3>Море + цивилизация</h3>
-                <!--комментарий-->
+                <h2>Море + цивилизация</h2>
+                <div class="description-page_img" style="background: url(image/header/time-to-travel.jpg)"></div>
                 <p>Совместить плескания в солёной воде с прелестями цивилизованной
                     жизни можно в добром десятке европейских стран.
-                    Популярные направления — <a href="#"><u>Италия</u></a>, <a href="#"><u>Испания</u></a>,
-                    <a href="#"><u>Португалия</u></a>, <a href="#"><u>Греция</u></a>, <a href="#"><u>Кипр</u></a>,
-                    <a href="#"><u>Франция</u></a>.
+                    Популярные направления — Италия, Испания,
+                    Португалия, Греция, Кипр, Франция.
                     Преимущества такого сочетания: возможность вдоволь «пошопиться» и разнообразить
                     походы на пляж созерцанием достопримечательностей мирового масштаба, типа <i>Колизея</i>
                     и <i>Парфенона</i>. Вдобавок можно выбрать замечательные пляжи прямо в черте города,
-                    как например, в <a href="#"><u>Барселоне</u></a> или <a href="#"><u>Ницце</u></a>.
+                    как например, в Барселоне или Ницце.
                 </p>
             </article>
             <article>
-                <h3>Море + экзотика</h3>
+                <h2>Море + экзотика</h2>
+                <div class="description-page_img" style="background: url(image/header/story.jpg)"></div>
                 <p>Если у вас щемит сердце при виде открыточного изгиба пальмы над лазурной
                     водной гладью, ваш выбор — экзотические моря и океаны: любимый нами
-                    (и основательно исхоженный русскими туристами) <a href="#"><u>Таиланд</u></a>,
-                    <a href="#"><u>Маврикий</u></a>, <a href="#"><u>Кабо-Верде</u></a>, <a href="#"><u>Сейшелы</u></a>
-                    и <a href="#"><u>Мальдивы</u></a>, <a href="#"><u>Доминикана</u></a>, <a href="#"><u>Индия</u></a>
-                    и <a href="#"><u>ЮАР</u></a>. <b>Плюсы очевидны</b>:
-                    <i>богатая</i> и <i>удивительная</i> в своей непохожести природа, <i>размеренный</i> ритм жизни,
-                    <i>вкусная</i> и <i>натуральная</i> еда и возможность отдохнуть от вездесущих
+                    (и основательно исхоженный русскими туристами) Таиланд,
+                    Маврикий, Кабо-Верде, Сейшелы и Мальдивы, Доминикана, Индия
+                    и ЮАР. <b>Плюсы очевидны</b>:
+                    богатая и удивительная в своей непохожести природа, размеренный ритм жизни,
+                    вкусная и натуральная еда и возможность отдохнуть от вездесущих
                     интернета-журналов-телевидения. Кстати, перечисленные направления вовсе не
                     так дороги, как может показаться на первый взгляд.
                 </p>
             </article>
             <article>
-                <h3>Море + цивилизованная экзотика</h3>
+                <h2>Море + искусство</h2>
+                <div class="description-page_img" style="background: url(image/header/travel-car.jpg)"></div>
                 <p>Золотая середина — мечети и офисные центры, современные магазины и совсем близкая
-                    пустыня — вот «фишки» <a href="#"><u>Турции</u></a> и <a href="#"><u>Египта</u></a>,
-                    <a href="#"><u>ОАЭ</u></a>, <a href="#"><u>Туниса</u></a>, <a href="#"><u>Марокко</u></a>,
-                    <a href="#"><u>Омана</u></a> и прочих арабских
+                    пустыня — вот «фишки» Турции и Египта,
+                    ОАЭ, Туниса, Марокко, Омана и прочих арабских
                     стран с колонизацией в прошлом. Восток, кивающий в сторону Запад — так можно определить
                     их характер. К тому же это одни из самых популярных пляжных стран, предлагающих возможности
-                    <i><b><u>для отдыха на любой вкус и кошелек</u></b></i> — от роскошных отелей <a
-                        href="#"><u>Дубая</u></a> до
-                    скромных «трёшек» <a href="#"><u>Сусса</u></a>.
+                    <i><u>для отдыха на любой вкус и кошелек</u></i> — от роскошных отелей Дубая до
+                    скромных «трёшек» Сусса.
                     «Экскурсионка», кстати, тут побогаче, чем на некоторых европейских направлениях: к руинам
                     великих империй прошлого здесь добавляются шедевры колониальной архитектуры и потрясающие
                     природные красоты.
                 </p>
             </article>
         </section>
-        <section>
+
+        <section class="five_best_places">
             <h3>Пять лучших мест для пляжного отдыха</h3>
             <ol>
                 <li>
@@ -83,7 +85,7 @@
         </section>
 
         <section>
-            <table border="1px">
+            <table>
                 <thead>
                     <h4>Разница во времени c Москвой</h4>
                 </thead>
@@ -117,12 +119,13 @@
         <section id="order-form">
             <h4>Оформить заявку на подбор тура</h4>
             <form method="GET" action="place-order-form.php">
-                <input name="username" placeholder="Ф.И.О" class="adress-input" autofocus required/> <br>
-                <input name="city" placeholder="Город" class="city-input"/> 
-                <input name="state" placeholder="Регион" class="state-input"/>
-                <input type="tel" id="phone" name="phone" placeholder="+7 (ххх) ххх-хх-хх" pattern="[+]{1}[0-9]{11,14}" required><br>
-                <input name="email" type="email" placeholder="Эл. почта" required/><br>
-                <input name="order-callback" type="checkbox"/> Заказать обратный звонок 
+                <input name="username" placeholder="Ф.И.О" class="adress-input" autofocus required /> <br>
+                <input name="city" placeholder="Город" class="city-input" />
+                <input name="state" placeholder="Регион" class="state-input" />
+                <input type="tel" id="phone" name="phone" placeholder="+7 (ххх) ххх-хх-хх" pattern="[+]{1}[0-9]{11,14}"
+                    required><br>
+                <input name="email" type="email" placeholder="Эл. почта" required /><br>
+                <input name="order-callback" type="checkbox" /> Заказать обратный звонок
                 <h4>Вылет:</h4>
                 <input name="fly_by_city" type="radio" value="from_moscow"> Из Москвы
                 <input name="fly_by_city" type="radio" value="from_spb"> Из Санкт-Петербурга
@@ -132,7 +135,7 @@
                     <option value="">Эл. деньги</option>
                     <option>Наличные</option>
                 </select>
-                <button>Оформить</button>
+                <button class="send-order-btn">Оформить</button>
             </form>
         </section>
 
@@ -140,7 +143,7 @@
     </main>
 
     <footer>
-        <h4 align="center"><i>&copy; Copyright 2021</i></h4>
+        <h4 class="copyright"><i>&copy; Copyright 2021</i></h4>
     </footer>
 </body>
 

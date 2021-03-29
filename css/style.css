@@ -1,0 +1,77 @@
+ /* импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,300;1,600;1,800&display=swap');
+
+body 
+{
+    /* если 'Exo 2' не подгрузится - будет использоваться 'sans-serif' */
+    font-family: 'Exo 2', sans-serif;
+    background: #b6d2dd;
+    margin: 20px;
+}
+
+a
+{
+    text-decoration: none; 
+    /* убирает подчеркивание со ссылок */
+}
+
+/* при наведении на объект ссылки будет происходить то что в блоке */
+a:hover
+{
+    color: black;
+}
+
+#main-header, h3, h2, h4, .copyright
+{
+    text-shadow: 2px 5px 5px grey;
+    text-align: center;
+    color: black;
+}
+
+h4
+{
+    text-align: left;
+}
+
+table, td, th
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#description-page-section
+{
+    display: flex;
+}
+
+.description-page_img
+{
+    height: 300px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+    border-radius: 5px;
+    border: 1px solid blanchedalmond;
+    box-shadow: 2px 5px 5px grey;
+}
+
+#description-page-section article
+{
+    width: 33%;
+    margin: 2px;
+    padding: 10px;
+    border: 1px solid lightslategray;
+    border-radius: 20px;
+    background-color: lightsteelblue;
+}
+
+#description-page-section article h2
+{
+    display: block;
+    height: 50px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0;
+}
+
+
